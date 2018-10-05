@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    tools:context="com.example.m.kyodai.Apropos"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.78">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="296dp"
+            android:src="@drawable/imageaccueil" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:text="Principe du jeu :"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:text="L’objectif du jeu est d’associer des paires identiques en les reliant afin de vider la matrice dans un temps imparti. Au fur et à mesure des niveaux le temps diminu."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="216dp"
+        android:layout_height="20dp"
+        android:layout_weight="0.11"
+        android:text="Réalisé par : Saliha OUDJIDANE 2017-2018"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+</LinearLayout>
